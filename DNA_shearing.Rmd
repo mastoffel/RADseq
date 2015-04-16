@@ -1,0 +1,38 @@
+---
+title: "DNA_shearing"
+author: "MS"
+date: "16 April 2015"
+output: html_document
+---
+
+
+## 4. DNA shearing
+
+#### Materials
+
+DNA concentration kit  
+Ultrapure dH2O  
+Covaris S220  
+TC13 Covaris tubes (KBioscience #KBS-0073-100/ Life Technologies #4399054)  
+Agilent, 2100 Bioanalyser   
+Agilent Bioanalyser High Sensitivity DNA kit (Agilent, #5067-4626)  
+Caliper LifeSciences, LabChip GX  
+HT DNA 1K/12K/Hi Sens Lab Chip, (Caliper LifeSciences,  # 760517).  
+HT DNA hiSens Reagent Kit, (Caliper LifeSciences,  # CLS760672).  
+Nucleospin Gel and PCR Clean-up kit, (Machery Nagel, #740609.50)  
+
+#### Preparation
+
+* samples have to be concentrated to 52.5 $\mu$l (maximum for the covaris tube)
+* Use [Genomic DNA Clean and Concentrator columns](http://www.zymoresearch.com/downloads/dl/file/id/35/d4003i.pdf) (Ampure beads don´t workwell for large DNA fragments)
+
+#### Protocol for Genomic DNA clean and concentrator columns (see link to protocol for preparation of reagents)
+** work on this section again!**
+1. Pool each library (16 samples) in a big tube
+2. Pooled volume is 960 $\mu$l (16 samples * 60 $\mu$l)
+3. Add 2x as much Buffer to the volume of the pooled DNA (2 * 960 ul)
+4. Has to be done 3 times (for this volume), as each eppi can just hold 1000 ul
++ Let dna stay in the top, get rid of fluid at the bottom, fill in again
+5. 20 ul elution buffer added 3 times and spinned
+
+

@@ -9,13 +9,13 @@ output: html_document
 
 #### Materials
 
-* Barcoded P1 adapters (IDT) RD_P1_101 to RD_P1_196 (100nM) (Appendix (2, 3 & 5))
-	*(Need to check how to prepare them)*
-* T4 Quick ligase (NEB #M2200L) 
-* 10x NEBuffer 2 (NEB # B7002S)
-* 100mM rATP (Promega # E6011)
-* Ultrapure dH2O
-* PCR block
+Barcoded P1 adapters (IDT) RD_P1_101 to RD_P1_196 (100nM) (Appendix (2, 3 & 5))
+	*(Need to check how to prepare them)*  
+T4 Quick ligase (NEB #M2200L)   
+10x NEBuffer 2 (NEB # B7002S)  
+100mM rATP (Promega # E6011)  
+Ultrapure dH2O  
+PCR block  
 
 #### General
 

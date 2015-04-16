@@ -72,16 +72,26 @@ will make errors, believe me.
 
 
 ***
+
 ```{r child = 'sample_qc.Rmd'}
 ```
+
 ***
+
 ```{r child = 'DNA_restriction_digest.Rmd'}
 ```
+
 ***
+
 ```{r child = 'P1_adapter_ligation.Rmd'}
 ```
 
+***
 
+```{r child = 'DNA_shearing.Rmd'}
+```
+
+***
 
 
 
