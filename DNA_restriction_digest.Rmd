@@ -1,0 +1,86 @@
+---
+title: "DNA_restriction_digest"
+author: "MS"
+date: "16 April 2015"
+output: html_document
+---
+
+## 2. DNA Restriction Digest
+
+#### Materials
+
+* Fresh aliquot of ultrapure dH2O
+* Nuclease free 8 strip PCR tubes (eg Griener Bio-One # 608201)
+* 10uL, 20uL and 200uL pipettes
+* ~~PstI-HF (NEB # R3140L)~~
+* SBF1-HF (to check)
+* 10x NEB Buffer 2 (NEB # R3140L)
+* 100x BSA  (NEB# R3140L)
+* Ultrapure dH2O ( water purity 18.2 M??-cm)
+* PCR block
+* 0.8% E-gel (Life Technologies # G601808)
+
+Each RAD library consists of 16 individual P1 adapter indexes which will either correspond to 16 individual samples or a combination of between 4-8 duplicate or 3 triplicate samples. A total of 6 RAD libraries (96 samples) can be prepared simultaneously if using gel size selection or 5 RAD libraries can be prepared simultaneously if using the Pippen Blue for size selection. 
+
+Prepare an excel spreadsheet based on the RAD Library Template shown in Appendix (1) which details the RAD project ID, the Internal Sample ID of each of the 16 samples within a RAD library and the P1 adapter associated with each sample. This spreadsheet also details the volumes of reagents required and the location of P1 adapters within the P1 Adapter Plate (Appendix (2)).
+
+Clearly label each 8-well PCR Strip to be used with the library number and each individual tube with a sample identifier as detailed in the RAD Library Template.
+
+Prepare an excel spreadsheet based on the RAD Library Template shown in Appendix (1) which details the RAD project ID, the Internal Sample ID of each of the 16 samples within a RAD library and the P1 adapter associated with each sample. This spreadsheet also details the volumes of reagents required and the location of P1 adapters within the P1 Adapter Plate (Appendix (2)).
+
+Clearly label each 8-well PCR Strip to be used with the library number and each individual tube with a sample identifier as detailed in the RAD Library Template.
+
+~~400ng of each sample should then be diluted in ultrapure dH2O** to a total volume of 35 ul.
+Ultrapure dH2O is used to minimise inhibition of restriction enzymatic reaction.~~
+
+#### Preparation
+
+* The aim is to have a 50 $\mu$l reaction in the PCR consisting of **DNA + dH2O + Mastermix**
+* The DNA volume has to contain 400ng DNA
+* Make new columns in the excel table for the necessary DNA volume and dH2O volume
+
+**Calculation of DNA volume**  
+
+* DNA concentrations of samples should be in ng / $\mu$l (qubit could give another unit depending on Assay)
+* We want 400ng DNA per sample, that is a volume of 400ng/sample concentration
+
+**Calculation of dH2O (ultrapure water) volume**
+
+* 44$\mu$l - DNA volume 
+
+Calculation for a sample with a concentration of 15 ng/$\mu$l:
+```{r}
+dna_volume <- 400 / 15        # 400 ng is desired amount
+h2o_volume <- 44 - dna_volume 
+```
+```{r}
+dna_volume
+h2o_volume
+```
+
+#### Protocol
+
+1. Make Mastermix:  
+
+Reagent     | 1 x Reaction | 17 x Reaction
+------------|--------------|--------------
+SBF1-HF     | 1.0 $\mu$l   | 17.0 $\mu$l
+NEB Buffer 2| 5.0 $\mu$l   | 85.0 $\mu$l
+BSA         | 0.5 $\mu$l   | 8.5 $\mu$l
+Total       | 6.5 $\mu$l   | 110.5 $\mu$l
+
+*Note: Take the reagent with the highest volume in the end to mix everything up*
+
+2. Get strip PCR tubes
+3. Fill in calculated amount of water for every sample
+4. Fill in 6.5 $\mu$l Mastermix in every tube
+5. Fill in calculated amount of DNA for every sample
+6. Place the strip tubes in a PCR block that has been programmed as follows:
++ (SBF1 digest program in Kanchon´s lab)
++ **Incubate: 60 min at 37°**
++ **Denature: 20 min at 80°**
++ **HOLD: 22°**
+
+Samples can be frozen overnight if required. (But sticky ends could degrade, to better go on)
+To check that SBF1 has cut efficiently a 0.8% E-gel can be run, the sample should run as a smear. 
+(not really necessary)

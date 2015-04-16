@@ -1,0 +1,97 @@
+---
+title: "RAD LIBRARY PREPARATION SBF1 PROTOCOL"
+author: "MS"
+date: "12 April 2015"
+output:
+  pdf_document:
+  - default
+  html_document:
+    theme:
+    - spacelab
+  word_document:
+  - default
+---
+
+Protocol based on Fuentes-Utrilla (unpublished), which is based on Etter et al (2011 Methods Mol Biol 772:157-78) and on Baird et al (2008 PloS ONE 3:e3376). Modified
+by Kanchon Dasmahapatra. Main difference is using the SBF1 restriction enzyme which
+is a low-frequency cutter.
+
+### Overview of the method
+
+* Individual DNA samples are first digested with restriction enzyme SBFI.
+
+* Individually barcoded P1 adapters are ligated to compatible ends of each digested DNA sample.
+
+* The uniquely barcoded samples are then pooled into multiplexed libraries that will consist of a maximum of 16 individual DNA's.
+
+* Each pooled library is sheared to an optimal size of ~ 200-600bp followed by gel size selection. (or Pippin pred)
+
+* Libraries are then blunted, followed by A-tailing and P2 adapter ligation.
+
+* Finally, libraries are enriched, and can be tagged with a second unique barcode during PCR amplification. 
+
+
+### General advice for Lab-newbies
+
+* Work on ice if possible. Sample and reagents are precious and you don´t want 
+them to degrade. If your lab doesn´t provide ice, just work with part of the samples
+and have the rest in the fridge / freezer.
+
+* Find a simple system to integrate your excel table with the plates 
+and pipettes you are using. For example, when you prepare 8 samples in a column
+on the plate, sort your excel table, your pipettes and your samples in the same way,
+so you don´t have to think about the next step.
+
+* Look at what the fluid in your pipette is doing! Often filter pipettes don´t suck up
+properly because the filter touch the fluid. Or the sample itself is gloupy and that´s why
+its not sucked up. So have an eye on the details.
+
+* When preparing a Mastermix, use ~ 5 % more than required. When preparing a Mastermix
+for 16 samples, just do it for 17 as you will usually lose a bit of fluid due to pipetting
+unreliabilities. Control the rest liquid in you Mastermix after pipetting to check whether
+you made any errors.
+
+* Last but not least: stop labwork if you feel that your concentration fades away. Otherwise you
+will make errors, believe me.
+
+***
+
+### Summary of the method
+ 
+1.	Pre library sample QC
+2.	DNA restriction digest
+3.	P1 adapter ligation
+4.	DNA shearing
+5.	Gel Size selection
+6.	Pippen Blue Size Selection
+7.	Blunt ends
+8.	A-tailing
+9.	P2 adapter ligation
+10.	Test PCR amplification
+11.	Enrichment PCR amplification
+
+
+***
+```{r child = 'sample_qc.Rmd'}
+```
+***
+```{r child = 'DNA_restriction_digest.Rmd'}
+```
+***
+```{r child = 'P1_adapter_ligation.Rmd'}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
