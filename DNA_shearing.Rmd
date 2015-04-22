@@ -21,18 +21,41 @@ HT DNA 1K/12K/Hi Sens Lab Chip, (Caliper LifeSciences,  # 760517).
 HT DNA hiSens Reagent Kit, (Caliper LifeSciences,  # CLS760672).  
 Nucleospin Gel and PCR Clean-up kit, (Machery Nagel, #740609.50)  
 
-#### Preparation
+#### General
 
 * samples have to be concentrated to 52.5 $\mu$l (maximum for the covaris tube)
-* Use [Genomic DNA Clean and Concentrator columns](http://www.zymoresearch.com/downloads/dl/file/id/35/d4003i.pdf) (Ampure beads don´t workwell for large DNA fragments)
+* See here for full manual: [Genomic DNA Clean and Concentrator columns](http://www.zymoresearch.com/downloads/dl/file/id/35/d4003i.pdf) (Ampure beads don´t workwell for large DNA fragments)
+* Use the 2:1 (Binding Buffer:DNA sample) ratio for genomic DNA
 
 #### Protocol for Genomic DNA clean and concentrator columns (see link to protocol for preparation of reagents)
-** work on this section again!**
-1. Pool each library (16 samples) in a big tube
-2. Pooled volume is 960 $\mu$l (16 samples * 60 $\mu$l)
-3. Add 2x as much Buffer to the volume of the pooled DNA (2 * 960 ul)
-4. Has to be done 3 times (for this volume), as each eppi can just hold 1000 ul
-+ Let dna stay in the top, get rid of fluid at the bottom, fill in again
-5. 20 ul elution buffer added 3 times and spinned
+** work on this section again!** 
+
+**Buffer Preparation**
+Before starting: Add 24 ml 100% ethanol (26 ml 95% ethanol) to the 6 ml DNA Wash Buffer concentrate. Add 96 ml 100% ethanol (104 ml 95% ethanol) to the 24 ml DNA Wash Buffer concentrate.
+
+1. Sample pooling: Transfer the library (16 samples, each 60 $\mu$l) into 1.5 ml Eppi (960 $\mu$l overall)
+2. Split the library into two 1.5 ml Eppi for the concentration and cleaning step. Each Eppi
+should now contain 480 $\mu$l)
+3. Add 960 $\mu$l Binding Buffer (2:1 ; Binding Buffer:DNA sample) to each of the two Eppis. Each Eppi should now contain 960 $\mu$l Binding Buffer + 480 $\mu$l DNA sample. 
+Mix briefly by vortexing.
+4. Transfer 960 $\mu$l mixture to a provided Zymo-SpinT Column2 (just 1000 960 $\mu$l fit in) in a Collection Tube.
+3. Centrifuge for 30 seconds. Discard the flow-through. Repeat 2 times (as we have a total volume of 3 * 960 = 2880 $\mu$l per library)
+4. Add 200 ??l DNA Wash Buffer to the column. Centrifuge for 30 seconds. Repeat the wash step.
+5. **Transfer the column** to a 1.5 ml microcentrifuge tube.
+6. Last step is adding the Elution BUffer. We want to end up with 52 $\mu$l. For better results,
+we split it into 3 steps: a) Add 20 $\mu$l DNA Elution Buffer or water directly to the column matrix and incubate at room temperature for one minute. Centrifuge for 30 seconds to elute the DNA. b) Repeat step a). c)  Add 12 $\mu$l DNA Elution Buffer or water directly to the column matrix and incubate at room temperature for one minute. Centrifuge for 30 seconds to elute the DNA.
+**52 $\mu$l Ultra-pure DNA is now ready for use.**
+*Note: The sample capacity of the column is 800 ??l. Therefore, it may be necessary to load and spin a column multiple times if a sample has a volume larger than 800 ??l.*
+
+
+#### Covaris shearing:
+1. Put ~52 $\mu$l of the concentrated, cleaned and pooled DNA into a covaris tube
+2. Shearing for 25 + 10 seconds was too short, so we did 55 seconds now (seals with SBF1).
+3. Aimed fragment length is 200 - 600 bp
+
+
+#### Make a gel to see if it worked
+0.7 % gel, let it run for a long time (~ 45 min or longer) to get stretched bands
+and a good result. Use a 100 bp ladder.
 
 

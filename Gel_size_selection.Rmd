@@ -1,0 +1,85 @@
+---
+title: "Gel_size_selection"
+author: "MS"
+date: "18 April 2015"
+output: html_document
+---
+
+## 5a. Gel size selection
+
+*Kanchon and me prefered Gel size selection over the Pippin prep machine,
+as the Pippin prep did not result in the DNA volume we needed, which made
+another cleanup and concentration step necessary (in which ~ 20% DNA is lost)*
+
+#### Materials
+**Gel Materials:**    
+Low Range Ultra Agarose (Biorad # 161-3107)  
+Ethidium bromide 10mg/ml (Sigma Aldrich # E1510)    
+50x Tris-Acetate (TAE) running buffer (Biorad #161-0743EDU)     
+Mini Subcell GT Gel System (Biorad #  AlphaImager Geldoc)   
+6x Orange Loading Dye (NEB, #B7022S)  
+100bp ladder (Life Technologies, #5628-019)  
+6x Orange/Blue loading dye (Promega, #G190A) 
+
+Cleanup:
+NucleoSpin Gel and PCR Clean-up (Machery-Nagel: REF 740609.50)
+
+#### General
+- Check that all gels are balanced out (use a spirit level)
+- 52 ul (DNA-volume) + 10 (or more) $\mu$l Dye should fit in one well (usually taping two comb-teeth together is a good solution)
+- Check when making the big initial agarose + TAE mix, that agarose dissolved completely (even in the cooling process some agarose can come out again)
+- Make two ladders on each side of gel
+- **Weigh tubes in which to fill cutted gel**
+
+
+#### Protocol
+
+**gels** 
+
+1. Use ONE small gel tray for EACH library to avoid DNA contamination. 52$\mu$l (DNA-volume) + 10 $\mu$l Dye should fit in one well (usually taping two comb-teeth together is a good solution)
+2. Calculate how much running buffer (TAE) and gel you need. We used 1xTAE Buffer and a 1% Agarose gel (with the low range ultra agarose)
+3. Mix 52 $\mu$l DNA and 10 $\mu$l loading Dye (could also be a bit more dye but 10 is sufficient).
+4. Load 5 (we used 1.25) $\mu$l of 100 bp Ladder in wells ether side of sample. Leave 1 well between sample and the ladder wells.
+5. **Running conditions:** 60 min at 60-70V. Rule of thumb: Let it run so long that you can clearly see the important bands in the ladder, but not longer than necessary.
+6. Take picture of uncut gel in the AlphaImager. In the black tent, place gel on the UV transilluminator, using the lower intensity UV light for the minimum amount of time (DNA can degrade under UV-light!).
+7. With a sterile scalpel, cut out a large band corresponding to 200 to 600bp.
+8. Cut off remains of non-DNA containing gel.
+9. Cut important part into small pieces and transfer them into an eppi (larger then 1.5 ml)
+10. Determine the weight of the gel slice (Eppi weight - Eppi+gel weight)
+
+**elution**
+
+10. Use the [NucleoSpin Gel and PCR Clean-up](http://www.mn-net.com/ProductsBioanalysis/DNAandRNApurification/Cleanup/NucleoSpinGelandPCRCleanup/tabid/1452/language/en-US/Default.aspx), the protocol is [here](http://www.mn-net.com/Portals/8/attachments/Redakteure_Bio/Protocols/DNA%20clean-up/UM_PCRcleanup_Gelex_NSGelPCR.pdf)
+11. For each 100 mg of agarose gel < 2 % add 200 $\mu$l Buffer NTI.
+12. Incubate sample for 5-10 min at 50 °C (Room temperature is ok). Vortex the sample
+briefly every 2-3 min until the gel slice is completely
+dissolved!
+13. **Bind DNA:** Place a NucleoSpin® Gel and PCR Clean-up Column
+into a Collection Tube (2 mL) and load up to 700 ??L
+sample. Centrifuge for 30 s at 11,000 x g. Discard flow-through
+and place the column back into the collection tube.
+Load remaining sample if necessary and repeat the
+centrifugation step.
+14. **Wash silica membrane:** 
+Add 700 $\mu$l Buffer NT3 to the NucleoSpin® Gel and
+PCR Clean-up Column. Centrifuge for 30 s at 11,000 x g.
+Discard flow-through and place the column back into the
+collection tube.
+Recommended: Repeat previous washing step to
+minimize chaotropic salt carry-over and low A260/A230 (see
+section 2.7 for detailed information).
+15. **Dry silica membrane:**
+Centrifuge for 1 min at 11,000 x g to remove Buffer NT3
+completely. Make sure the spin column does not come in
+contact with the flow-through while removing it from the
+centrifuge and the collection tube. 
+*Note: Residual ethanol from Buffer NT3 might inhibit enzymatic reactions. Total removal of ethanol can be achieved by incubating the columns for 2-5 min at 70 °C prior to elution.*
+16. **Elute DNA:** Final volume should be 38 $\mu$l.
+Place the NucleoSpin® Gel and PCR Clean-up Column
+into a new 1.5 mL microcentrifuge tube (not provided).
+Add 20 $\mu$l Buffer NE and incubate at room
+temperature (18-25 °C) for 1 min (we did 5). Centrifuge for 1 min
+at 11,000 x g. Add 18 $\mu$l Buffer NE and incubate at room
+temperature (18-25 °C) for 1 min (we did 5). Centrifuge for 1 min
+at 11,000 x g. 
+*Samples can be frozen overnight.*

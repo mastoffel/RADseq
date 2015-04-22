@@ -3,11 +3,11 @@ title: "RAD LIBRARY PREPARATION SBF1 PROTOCOL"
 author: "MS"
 date: "12 April 2015"
 output:
-  pdf_document:
-  - default
   html_document:
     theme:
     - spacelab
+  pdf_document:
+  - default
   word_document:
   - default
 ---
@@ -93,9 +93,13 @@ will make errors, believe me.
 
 ***
 
+```{r child = 'Gel_size_selection.Rmd'}
+```
 
+***
 
-
+```{r child = 'Pippin_prep_size_selection.Rmd'}
+```
 
 
 

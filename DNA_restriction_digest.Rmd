@@ -35,14 +35,14 @@ Ultrapure dH2O is used to minimise inhibition of restriction enzymatic reaction.
 
 #### Preparation
 
-* The aim is to have a 50 $\mu$l reaction in the PCR consisting of **DNA + dH2O + Mastermix**
-* The DNA volume has to contain 400ng DNA
-* Make new columns in the excel table for the necessary DNA volume and dH2O volume
+- The aim is to have a 50 $\mu$l reaction consisting of **DNA + dH2O + Mastermix**
+- The DNA volume has to contain 400ng DNA
+- Make new columns in the excel table for the necessary DNA volume and dH2O volume
 
 **Calculation of DNA volume**  
 
-* DNA concentrations of samples should be in ng / $\mu$l (qubit could give another unit depending on Assay)
-* We want 400ng DNA per sample, that is a volume of 400ng/sample concentration
+- DNA concentrations of samples should be in ng / $\mu$l (qubit could give another unit depending on Assay)
+- We want 400ng DNA per sample, that is a volume of 400ng/sample concentration
 
 **Calculation of dH2O (ultrapure water) volume**
 
@@ -60,6 +60,7 @@ h2o_volume
 
 #### Protocol
 
+
 1. Make Mastermix:  
 
 Reagent     | 1 x Reaction | 17 x Reaction
@@ -75,12 +76,21 @@ Total       | 6.5 $\mu$l   | 110.5 $\mu$l
 3. Fill in calculated amount of water for every sample
 4. Fill in 6.5 $\mu$l Mastermix in every tube
 5. Fill in calculated amount of DNA for every sample
+
+```
+Alternatives:
+1. Prepare DNA + Water in strip PCR tubes
+2. Prepare Mastermix
+3. Fill Mastermix in 8 strip tubes
+4. Transfer to DNA+Water solution with a Multipipette
+```  
+
 6. Place the strip tubes in a PCR block that has been programmed as follows:
 + (SBF1 digest program in Kanchon´s lab)
 + **Incubate: 60 min at 37°**
 + **Denature: 20 min at 80°**
 + **HOLD: 22°**
 
-Samples can be frozen overnight if required. (But sticky ends could degrade, to better go on)
+Samples can be frozen overnight if required. (But sticky ends could degrade, to better go on)  
 To check that SBF1 has cut efficiently a 0.8% E-gel can be run, the sample should run as a smear. 
 (not really necessary)
